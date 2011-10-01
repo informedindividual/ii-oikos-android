@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/favoritt">            
+        <CheckBoxPreference
+	        android:key="last_selected_values_as_favorite" 
+	        android:title="@string/save_last_selected_values_title"
+	        android:defaultValue="true"
+	        android:summary="@string/save_last_selected_values" /> 
+    </PreferenceCategory> 
+ 
+    <PreferenceCategory android:title="@string/facebook">            
+        <CheckBoxPreference
+	        android:key="post_to_my_wall" 
+	        android:title="@string/my_wall_title"
+	        android:defaultValue="false"
+	        android:summary="@string/post_to_my_wall" /> 
+	        
+	    <CheckBoxPreference
+	        android:key="post_to_store_wall" 
+	        android:title="@string/store_wall_title"
+	        android:defaultValue="false"
+	        android:summary="@string/post_to_store_wall" /> 
+    </PreferenceCategory>     
+
+</PreferenceScreen>

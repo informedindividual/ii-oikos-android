@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">Oikos</string>
+    <string name="version">versjon 1.0</string>
+    <string name="txtview_dev">utviklet av Informed Individual &amp; CellObject</string>
+    <string name="iwant">Jeg ville blitt glad dersom økologisk:</string>    
+    <string name="available">var tilgjengelig på:</string>
+    <string name="select_county">Velg fylke</string>
+    <string name="select_place">Velg sted</string>
+    <string name="select_shop">Velg butikkjede</string>
+    <string name="send_request">SEND INN ØNSKE</string>
+    <string name="ok">OK</string>
+    
+    <string name="required_product_message">Skriv inn ønsket økologisk produkt</string>
+    <string name="store_hint">Skriv inn butikk &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</string>    
+    <string name="required_store_message">Velg eller skriv inn butikk</string>
+    <string name="submitting_problem">Det oppsto en feil under innsending.</string>
+    <string name="submitting">Innsending av ønsket foregår..</string>
+    <string name="submitting_succeeded">Ditt ønske er sendt inn. \nLegg gjerne inn flere ønsker.</string>
+    <string name="network_error">\nSjekk Internett-tilgang og prøv igjen..\n</string>
+      
+    
+    <string name="message_hint">Skriv inn produkt</string>
+    <string name="place_hint"> Skriv inn sted  &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160;</string>
+    
+    <string name="favoritt">FAVORITT</string>
+    <string name="facebook">FACEBOOK</string>
+    
+    <string name="save_last_selected_values_title">Husk min butikk</string>
+    <string name="save_last_selected_values">Lagre mine sist valgte verdier som favoritt.</string>        
+  
+    <string name="my_wall_title">Min facebook-profil</string>
+    <string name="post_to_my_wall">Legg også ut min forespørsel på veggen på min facebook-profil.</string>
+    
+    <string name="store_wall_title">Butikkjedens facebook</string>
+    <string name="post_to_store_wall">Legg også ut min forespørsel på veggen på butikkjedens facebook-profil. Dette krever at du allerede \"liker\" butikkjedens facebook side.</string>    
+    
+    <string name="facebook_login_failed">Innlogging på facebook mislyktes.</string>
+    
+    <string name="info_text">Interessert i å kjøpe økologisk mat, men hindret av dårlig utvalg? Dette vil Oikos, med din hjelp, gjøre noe med! Med denne app\'en kan du sende inn forespørsel til butikken du er i om hvilket økologisk produkt du ønsker. Skriv inn produktet, velg butikkkjede, fylke og sted, og trykk SEND INN ØNSKE. Forespørslene blir sendt til ansvarlig innen hver butikkkjede. Tusen takk for at du gjør det enklere å velge økologisk. </string>
+   
+</resources>

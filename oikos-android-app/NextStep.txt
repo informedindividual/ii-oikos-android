@@ -1,0 +1,14 @@
+
+
+hente places.
+
+gjør om http request returnerer stream respons rett i xmlpullparser, fortere!
+
+
+
+
+
+todo: VIEW HOLDER IN ARRAYADAPTER FASTER 
+
+
+

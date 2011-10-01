@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<country id="NO" name="Norge">
+    <stores>
+        <store id="1" name="Bunnpris" logoUrl="http://ii42.org/oikos/img/store/" logo="bunnpris128x.png"/>
+        <store id="9" name="Coop Extra" logoUrl="http://ii42.org/oikos/img/store/" logo="coopextra128x.png"/>
+        <store id="6" name="Coop Marked" logoUrl="http://ii42.org/oikos/img/store/" logo="coopmarked128x.png"/>
+        <store id="7" name="Coop Mega" logoUrl="http://ii42.org/oikos/img/store/" logo="coopmega128x.png"/>
+        <store id="10" name="Coop Obs!" logoUrl="http://ii42.org/oikos/img/store/" logo="coopobs128x.png"/>
+        <store id="8" name="Coop Prix" logoUrl="http://ii42.org/oikos/img/store/" logo="coopprix128x.png"/>
+        <store id="12" name="Ica NÃ¦r" logoUrl="http://ii42.org/oikos/img/store/" logo="icanaer128x.png"/>
+        <store id="13" name="Ica Super" logoUrl="http://ii42.org/oikos/img/store/" logo="icasuper128x.png"/>
+        <store id="3" name="Joker" logoUrl="http://ii42.org/oikos/img/store/" logo="joker128x.png"/>
+        <store id="4" name="Kiwi" logoUrl="http://ii42.org/oikos/img/store/" logo="kiwi128x.png"/>
+        <store id="5" name="Meny" logoUrl="http://ii42.org/oikos/img/store/" logo="meny128x.png"/>
+        <store id="11" name="Rema 1000" logoUrl="http://ii42.org/oikos/img/store/" logo="rema1000128x.png"/>
+        <store id="14" name="Rimi" logoUrl="http://ii42.org/oikos/img/store/" logo="rimi128x.png"/>
+        <store id="2" name="Spar" logoUrl="http://ii42.org/oikos/img/store/" logo="spar128x.png"/>
+    </stores>
+</country>
