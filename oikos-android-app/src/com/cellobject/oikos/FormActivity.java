@@ -50,7 +50,7 @@ public class FormActivity extends Activity {
 
 	private MessageUtil messageUtil;
 
-	final String URL_SUBMIT_PRODUCT = "http://ii42.org/oikos/m/prodReq/add";
+	final String URL_SUBMIT_PRODUCT = "https://informedindividual.org/oikos/m/prodReq/add";
 
 	private final String FACEBOOK_APPID = "203117906393490";
 
@@ -111,6 +111,8 @@ public class FormActivity extends Activity {
 	public final static String ICA_SUPER = "Ica Super";
 
 	public final static String ICA_NAER = "Ica Nær";
+	
+	public final static String ICA_MAXI = "Ica Maxi";
 
 	public final static String REMA_1000 = "Rema 1000";
 
@@ -524,7 +526,9 @@ public class FormActivity extends Activity {
 				icon.setImageResource(R.drawable.icanaer);
 			} else if (storeName.equalsIgnoreCase(ICA_SUPER)) {
 				icon.setImageResource(R.drawable.icasuper);
-			} else if (storeName.equalsIgnoreCase(RIMI)) {
+			} else if (storeName.equalsIgnoreCase(ICA_MAXI)) {
+				icon.setImageResource(R.drawable.icamaxi);
+			}else if (storeName.equalsIgnoreCase(RIMI)) {
 				icon.setImageResource(R.drawable.rimi);
 			}
 			return row;
@@ -565,8 +569,10 @@ public class FormActivity extends Activity {
 				icon.setImageResource(R.drawable.icanaer);
 			} else if (storeName.equalsIgnoreCase(ICA_SUPER)) {
 				icon.setImageResource(R.drawable.icasuper);
-			} else if (storeName.equalsIgnoreCase(RIMI)) {
-				icon.setImageResource(R.drawable.rimi);
+			} else if (storeName.equalsIgnoreCase(ICA_SUPER)) {
+				icon.setImageResource(R.drawable.icasuper);
+			} else if (storeName.equalsIgnoreCase(ICA_MAXI)) {
+				icon.setImageResource(R.drawable.icamaxi);
 			} else {
 				//If no icon found for the selected item, just display text
 				icon.setVisibility(View.GONE);

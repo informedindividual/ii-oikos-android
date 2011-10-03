@@ -20,9 +20,9 @@ public class SplashScreenActivity extends Activity {
 
 	MessageUtil messageUtil;
 
-	final String URL_GET_ALL_STORES = "http://ii42.org/oikos/m/stores/getAll/xml";
+	final String URL_GET_ALL_STORES = "https://informedindividual.org/oikos/m/stores/getAll/xml";
 
-	final String URL_GET_ALL_COUNTIES = "http://ii42.org/oikos/m/counties/getAll/xml";
+	final String URL_GET_ALL_COUNTIES = "https://informedindividual.org/oikos/m/counties/getAll/xml";
 
 	private final int NETWORK_ERROR_MESSAGE = 1;
 

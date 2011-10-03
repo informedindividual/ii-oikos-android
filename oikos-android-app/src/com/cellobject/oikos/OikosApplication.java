@@ -2,23 +2,25 @@ package com.cellobject.oikos;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import android.app.Application;
+
 import com.cellobject.oikos.model.County;
 import com.cellobject.oikos.model.Store;
-import com.cellobject.oikos.util.HttpWrapper;
+import com.cellobject.oikos.util.NetworkHelper;
 
 public class OikosApplication extends Application {
-	private HttpWrapper network = new HttpWrapper();
+	private NetworkHelper network = new NetworkHelper(this);
 
 	private List<Store> stores = new ArrayList<Store>();
 
 	private List<County> counties = new ArrayList<County>();
 
-	public HttpWrapper getNetwork() {
+	public NetworkHelper getNetwork() {
 		return network;
 	}
 
-	public void setNetwork(final HttpWrapper network) {
+	public void setNetwork(final NetworkHelper network) {
 		this.network = network;
 	}
 
